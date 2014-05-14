@@ -58,21 +58,26 @@ public class Registrera_kund extends javax.swing.JFrame {
 
         jLabel4.setText("Gatuadress");
 
-        jTextField3.setText("jTextField3");
+        jTextField3.setText("Kundnamn");
 
-        jTextField4.setText("jTextField4");
+        jTextField4.setText("Kundadress");
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
 
         jLabel5.setText("Postnummer");
 
-        jTextField5.setText("jTextField5");
+        jTextField5.setText("122 22");
 
         jLabel6.setText("Telefonnr.");
 
-        jTextField6.setText("jTextField6");
+        jTextField6.setText("0111-121212");
 
         jLabel7.setText("Fax");
 
-        jTextField7.setText("jTextField7");
+        jTextField7.setText("0111-121212");
 
         jLabel8.setText("E-post");
 
@@ -80,15 +85,15 @@ public class Registrera_kund extends javax.swing.JFrame {
 
         jLabel10.setText("Org.nr.");
 
-        jTextField8.setText("jTextField8");
+        jTextField8.setText("kundnamn@foretag.com");
 
-        jTextField9.setText("jTextField9");
+        jTextField9.setText("Erik Kund");
 
-        jTextField10.setText("jTextField10");
+        jTextField10.setText("555555-1010");
 
         jLabel11.setText("ort");
 
-        jTextField11.setText("jTextField11");
+        jTextField11.setText("Kundensort");
 
         jButton3.setText("Registrera");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -107,7 +112,6 @@ public class Registrera_kund extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel7)
                     .addComponent(jLabel8)
-                    .addComponent(jLabel9)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel5)
                         .addGap(54, 54, 54)
@@ -128,8 +132,9 @@ public class Registrera_kund extends javax.swing.JFrame {
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
                             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jLabel6)
-                                .addComponent(jLabel10))
-                            .addGap(63, 63, 63)
+                                .addComponent(jLabel10)
+                                .addComponent(jLabel9))
+                            .addGap(40, 40, 40)
                             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(jTextField6)
                                 .addComponent(jTextField9)
@@ -140,9 +145,10 @@ public class Registrera_kund extends javax.swing.JFrame {
                                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jButton3)
+                        .addGap(182, 182, 182)
+                        .addComponent(jButton4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton4)))
+                        .addComponent(jButton3)))
                 .addGap(0, 512, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -223,6 +229,10 @@ public class Registrera_kund extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
 
     /**
      * @param args the command line arguments
