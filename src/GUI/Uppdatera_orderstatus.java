@@ -63,7 +63,7 @@ public class Uppdatera_orderstatus extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Uppdater orderstatus"));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Uppdatera orderstatus"));
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Ordernummer"));
 
