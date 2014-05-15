@@ -91,7 +91,7 @@ public class Registrera_kund extends javax.swing.JFrame {
 
         jTextField10.setText("555555-1010");
 
-        jLabel11.setText("ort");
+        jLabel11.setText("Ort");
 
         jTextField11.setText("Kundensort");
 
@@ -206,7 +206,7 @@ public class Registrera_kund extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 881, Short.MAX_VALUE)
+            .addGap(0, 883, Short.MAX_VALUE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)

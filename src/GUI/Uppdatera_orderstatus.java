@@ -65,7 +65,7 @@ public class Uppdatera_orderstatus extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Uppdater orderstatus"));
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Order nummer"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Ordernummer"));
 
         jList1.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "1212-13", "1315-01", "1315-32", "1515-03" };
@@ -112,7 +112,7 @@ public class Uppdatera_orderstatus extends javax.swing.JFrame {
         jTextField7.setEditable(false);
         jTextField7.setText("122 22");
 
-        jLabel11.setText("ort:");
+        jLabel11.setText("Ort:");
 
         jTextField8.setEditable(false);
         jTextField8.setText("Kundens ort");

@@ -112,7 +112,7 @@ public class Skriv_ut_plocklista extends javax.swing.JFrame {
         jTextField7.setEditable(false);
         jTextField7.setText("122 22");
 
-        jLabel11.setText("ort:");
+        jLabel11.setText("Ort:");
 
         jTextField8.setEditable(false);
         jTextField8.setText("Kundens ort");
