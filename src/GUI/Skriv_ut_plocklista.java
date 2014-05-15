@@ -65,7 +65,7 @@ public class Skriv_ut_plocklista extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Skriv ut plocklista"));
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Order nummer"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Ordernummer"));
 
         jList1.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "1212-13", "1315-01", "1315-32", "1515-03" };

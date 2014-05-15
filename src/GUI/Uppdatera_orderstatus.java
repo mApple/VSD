@@ -10,12 +10,12 @@ package GUI;
  *
  * @author sahlq_000
  */
-public class Handlägg_order extends javax.swing.JFrame {
+public class Uppdatera_orderstatus extends javax.swing.JFrame {
 
     /**
-     * Creates new form Handlägg_order
+     * Creates new form Uppdatera_order_status
      */
-    public Handlägg_order() {
+    public Uppdatera_orderstatus() {
         initComponents();
     }
 
@@ -59,14 +59,13 @@ public class Handlägg_order extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jList2 = new javax.swing.JList();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Handlägg order"));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Uppdater orderstatus"));
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Ordernummer"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Order nummer"));
 
         jList1.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "1212-13", "1315-01", "1315-32", "1515-03" };
@@ -124,7 +123,7 @@ public class Handlägg_order extends javax.swing.JFrame {
 
         jLabel12.setText("E-post:");
 
-        jLabel13.setText("Kontaktperson:");
+        jLabel13.setText("Kontakt person:");
 
         jTextField9.setEditable(false);
         jTextField9.setText("0111-101010");
@@ -145,6 +144,7 @@ public class Handlägg_order extends javax.swing.JFrame {
 
         jLabel2.setText("Ordernummer:");
 
+        jTextField2.setEditable(false);
         jTextField2.setText("1212-13");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -240,10 +240,10 @@ public class Handlägg_order extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Ej godkänd order"));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Order"));
 
         jList2.setModel(new javax.swing.AbstractListModel() {
-            String[] strings = { "Standarddator X3-15 a'   5 300 :-", "     antal: 3   totalpris: 15 900 :-", " ", "Standarddator X3-20 a'   7 150 :-", "     antal: 5   totalpris: 35 750 :-", " ", "Standarddator X3-22 a'   11 725 :-", "     antal: 2   totalpris: 23 450 :-", " ", " ", " ", " ", "Totalpris:                           63 375 :-" };
+            String[] strings = { "Standarddator X3-15      antal: 3       lagerplats: h502", " ", "Standarddator X3-20      antal: 3       lagerplats: h503", " ", "Standarddator X3-22      antal: 3       lagerplats: h501", " ", " " };
             public int getSize() { return strings.length; }
             public Object getElementAt(int i) { return strings[i]; }
         });
@@ -265,9 +265,7 @@ public class Handlägg_order extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jButton1.setText("Godkänn");
-
-        jButton2.setText("Neka");
+        jButton1.setText("Färdig för leverans");
 
         jButton3.setText("Avbryt");
 
@@ -286,9 +284,7 @@ public class Handlägg_order extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton3)
-                .addGap(30, 30, 30)
-                .addComponent(jButton2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jButton1)
                 .addContainerGap())
         );
@@ -305,9 +301,8 @@ public class Handlägg_order extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(jButton2)
                     .addComponent(jButton3))
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -341,27 +336,26 @@ public class Handlägg_order extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Handlägg_order.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Uppdatera_orderstatus.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Handlägg_order.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Uppdatera_orderstatus.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Handlägg_order.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Uppdatera_orderstatus.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Handlägg_order.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Uppdatera_orderstatus.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Handlägg_order().setVisible(true);
+                new Uppdatera_orderstatus().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;

@@ -54,7 +54,7 @@ public class Registrera_kund extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Registrera ny kund"));
 
-        jLabel3.setText("Verksamhetsnamn");
+        jLabel3.setText("Kundnamn");
 
         jLabel4.setText("Gatuadress");
 
@@ -124,7 +124,7 @@ public class Registrera_kund extends javax.swing.JFrame {
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel3)
                             .addComponent(jLabel4))
-                        .addGap(26, 26, 26)
+                        .addGap(58, 58, 58)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jTextField4)
                             .addComponent(jTextField3)))

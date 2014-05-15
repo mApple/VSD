@@ -182,7 +182,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Kund namn"/>
+            <Property name="text" type="java.lang.String" value="Kundnamn"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="jTextField2">
@@ -326,7 +326,7 @@
           <Properties>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Dator item"/>
+                <TitledBorder title="Datoritem"/>
               </Border>
             </Property>
           </Properties>

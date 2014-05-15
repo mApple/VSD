@@ -87,7 +87,7 @@ public class Offert extends javax.swing.JFrame {
         jTextField1.setMinimumSize(new java.awt.Dimension(20, 20));
         jTextField1.setPreferredSize(new java.awt.Dimension(40, 20));
 
-        jLabel2.setText("Kund namn");
+        jLabel2.setText("Kundnamn");
 
         jTextField2.setText("                         ");
         jTextField2.setPreferredSize(new java.awt.Dimension(100, 20));
@@ -155,7 +155,7 @@ public class Offert extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Dator item"));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Datoritem"));
 
         jList4.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Standarddator", "     nätaggregat: 250W", "     moderkort: Asus X3", "     grafikkort: (integrerat)", "     processor: Intel i3", "     mjukvaror: Windows 8, Office 2013", " ", "Kundanpassaddator", "     nätaggregat: PowerAgg 300W", "     moderkort:", "     grafikkort:", "     processor:", "     mjukvaror:" };
